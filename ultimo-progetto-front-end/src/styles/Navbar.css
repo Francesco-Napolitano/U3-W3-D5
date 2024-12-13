@@ -1,0 +1,28 @@
+.navbar {
+   background-color: #2E2E2E !important;
+   padding: 0 !important;
+}
+
+.navbar-toggler{
+   border: none !important;
+}
+
+.navbar-brand{
+   color: #F95869 !important;
+}
+@media (min-width: 992px) {
+   .custom-navbar .logo-container {
+     display: flex;
+     align-items: center;
+   }
+ 
+   .custom-navbar .navbar-brand {
+     font-size: 1.25rem;
+     margin-left: 1rem;
+   }
+ 
+   .custom-navbar .d-flex.d-lg-none {
+     display: none !important;
+   }
+ }
+ 
